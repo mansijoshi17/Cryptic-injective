@@ -78,7 +78,7 @@
 <img width="1423" alt="Screenshot 2023-07-06 at 11 32 48 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/135950a2-406d-41a0-968c-95d084505254">
 
 
-### Patex
+### Injective(inEVM/caldera)
 
 ```
 require("@nomicfoundation/hardhat-toolbox");
@@ -87,8 +87,6 @@ require("hardhat-deploy-ethers");
 require("./tasks");
 require("dotenv").config();
 
-const PRIVATE_KEY = process.env.REACT_APP_PRIVATE_KEY;
-const patexSepoliaUrl = process.env.REACT_APP_PATEX_SEPOLIA_URL
 
 module.exports = {
   solidity: "0.8.4",
@@ -98,13 +96,13 @@ module.exports = {
       runs: 10000,
     },
   },
-  defaultNetwork: "patex-sepolia",
+  defaultNetwork: "inEVM",
   networks: {
     hardhat: {},
-    "patex-sepolia": {
-      url: patexSepoliaUrl,
-      accounts: [ PRIVATE_KEY ]
-   }  
+    inEVM: {
+      url: "https://inevm-rpc.caldera.dev/", 
+      chainId: 1738, 
+    }
   },
   paths: {
     sources: "./contracts",

@@ -43,7 +43,7 @@
 
 **1) Crypic Sign to Agreements:** User can add agreements with sign placeholders and then can share the link with the member of that agreement. Only added whitelisted members will be able to access the link. Members will sign the agreement using that sharabale link.
 
-<img width="1424" alt="Screenshot 2023-07-06 at 11 32 59 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/bef07a19-6126-4414-821d-0c451ae81525">
+<img width="1438" alt="Screenshot 2023-12-19 at 3 20 53 PM" src="https://github.com/mansijoshi17/Cryptic-injective/assets/54347081/afd3ab86-ed69-4b98-b7f2-e49e7f948eaa">
 
 
 <img width="1423" alt="Screenshot 2023-07-06 at 11 34 52 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/be2043af-d28b-424e-941a-1858d6325c39">

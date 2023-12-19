@@ -65,7 +65,7 @@
 
 **5) Emergency Alert:** Set Emergency alert email message to notify the member about access permission.
 
-<img width="1412" alt="Screenshot 2023-07-06 at 11 32 32 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/46cf753e-4d9e-4eef-ae1e-6033ab02e191">
+<img width="1415" alt="Screenshot 2023-12-19 at 3 54 07 PM" src="https://github.com/mansijoshi17/Cryptic-injective/assets/54347081/00b5f445-84b8-4670-aa5a-55c2ae1b22d1">
 
 
 **6) Access Permission:** There are three ways to give access permission. 1) Give access right away which will transfer token and send email to the particular member right away 2) Emergency Transfer is set number of days the when transfer should be executed, if admin is not active from defined days. 3) On selected date is token should be transfered on particular date.

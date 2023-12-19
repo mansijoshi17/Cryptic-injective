@@ -184,7 +184,7 @@ function CrypticAgreement() {
                             size="small"
                             onClick={() => {
                               CopyToClipboard(
-                                `http://localhost:3000/dashboard/crypticsign/${agreement.aggAddress}`
+                                `https://cryptic-injective.vercel.app/dashboard/crypticsign/${agreement.aggAddress}`
                               );
                             }}
                           >

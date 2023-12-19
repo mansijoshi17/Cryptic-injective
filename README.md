@@ -46,7 +46,7 @@
 <img width="1438" alt="Screenshot 2023-12-19 at 3 20 53 PM" src="https://github.com/mansijoshi17/Cryptic-injective/assets/54347081/afd3ab86-ed69-4b98-b7f2-e49e7f948eaa">
 
 
-<img width="1423" alt="Screenshot 2023-07-06 at 11 34 52 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/be2043af-d28b-424e-941a-1858d6325c39">
+<img width="1434" alt="Screenshot 2023-12-19 at 3 51 30 PM" src="https://github.com/mansijoshi17/Cryptic-injective/assets/54347081/9a5dfc2f-3ec3-4a18-a93c-83ddc0deef15">
 
 
 **3) Decentralized Encrypted Perpetual Storage :** In Drive we can store different type of file which will stored encrypted on IPFS.

@@ -1,8 +1,8 @@
 export const crypticVaultContractEthAddress =
-  "0x0005A12fFB8edf3D93E49fEb79E3ea45883B1de2";
+  "0xdaF54DEB8d15c2f1b1E4bc18FE3E7e19E0EE239F";
 
 export const crypticAgreementFactoryEthAddress =
-  "0x89d050840d9B93AA6E5f73A350921dD1818059f7";
+  "0xeAD8E99c0af2601113456D2d118d151D4b789076";
 
 export const shortAddress = (addr) =>
   addr.length > 10 && addr.startsWith("0x")

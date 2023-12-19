@@ -4,7 +4,6 @@ require("hardhat-deploy-ethers");
 require("./tasks");
 require("dotenv").config();
 
-const PRIVATE_KEY = process.env.REACT_APP_PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.4",

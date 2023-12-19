@@ -10,6 +10,7 @@ import Iconify from "../../components/Iconify";
 import AccountPopover from "./AccountPopover";
 import { Web3Context } from "../../context/Web3Context";
 import { shortAddress } from "src/config";
+import { useEffect } from "react";
 
 // ----------------------------------------------------------------------
 
@@ -45,6 +46,7 @@ export default function DashboardNavbar({ onOpenSidebar }) {
   const web3Context = React.useContext(Web3Context);
   const { address } = web3Context;
   const [open, setOpen] = useState(false);
+  const [injectiveAdd, setInjectiveAdd] = useState("");
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -75,10 +77,16 @@ export default function DashboardNavbar({ onOpenSidebar }) {
           spacing={{ xs: 0.5, sm: 1.5 }}
         >
           <AccountPopover />
-          <p style={{
-            border: '1px solid #eee', padding: '3px 15px', borderRadius: '20px', fontWeight: 'bolder',color:'black',
-            width: 'fit-content'
-          }}>
+          <p
+            style={{
+              border: "1px solid #eee",
+              padding: "3px 15px",
+              borderRadius: "20px",
+              fontWeight: "bolder",
+              color: "black",
+              width: "fit-content",
+            }}
+          >
             {shortAddress(address)}
           </p>
           {/* <p style={{ color: 'black', textOverflow: 'ellipsis' }}>{account != null && account.slice(0, 10)}</p> */}

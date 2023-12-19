@@ -123,11 +123,13 @@ export const Web3ContextProvider = (props) => {
     try {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
+      console.log(accounts);
       const crypticVaultCon = new ethers.Contract(
         crypticVaultContractEthAddress,
         crypticVault,
         signer
       );
+
       let status = await crypticVaultCon.getLoginStatus(accounts[0]);
 
       if (status) {
@@ -141,6 +143,7 @@ export const Web3ContextProvider = (props) => {
           data.tName,
           data.symbol
         );
+        console.log(createTokenTransaction, "createTokenTransaction");
         let tx = await createTokenTransaction.wait();
         if (tx) {
           let event = await tx.events[0];

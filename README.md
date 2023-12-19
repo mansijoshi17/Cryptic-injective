@@ -75,7 +75,7 @@
 
 **7) Encrypted Notes:** In notes, added notes will be stored encrypted on IPFS.
 
-<img width="1423" alt="Screenshot 2023-07-06 at 11 32 48 AM" src="https://github.com/cryptbuilder/Cryptic/assets/104611242/135950a2-406d-41a0-968c-95d084505254">
+<img width="1429" alt="Screenshot 2023-12-19 at 3 15 56 PM" src="https://github.com/mansijoshi17/Cryptic-injective/assets/54347081/4fc4dbf5-6eb8-431c-a388-32fdb47d8bdc">
 
 
 ### Injective(inEVM/caldera)

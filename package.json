@@ -83,9 +83,9 @@
     "typescript": "^4.9.4",
     "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4",
+    "web3": "^1.8.2",
     "web3.storage": "^4.3.0",
     "web3modal": "^1.9.8",
-    "web3": "^1.8.2",
     "yup": "^0.32.11"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
 
 ![MicrosoftTeams-image (70)](https://user-images.githubusercontent.com/54347081/216899865-a67a3649-06fc-4e62-ad5f-b87af1c5b50b.png)
 
-## Cryptic is perpetual data storage, management and privacy proof multiuser eSignature Dapp
+## Cryptic is data storage, management and privacy proof eSignature Dapp
 
 ### Key Features:
 
@@ -112,6 +112,6 @@ module.exports = {
   },
 };
 ```
-Note: Despite my initial attempt to build it from the ground up using Rust and Cosmos SDK, time constraints compelled me to leverage the existing Cryptic framework in Solidity. Ultimately, through the (InEVM/Caldera) devnet, we deployed it on the Injective Blockchain to ensure a timely and effective solution. Also, as per the rules, I would like to clarify that Cryptic was initially developed for FVM SpaceWrap. Cryptic addresses real-time use cases and solves problems that can benefit DAOs and individual members within the Injective ecosystem.
+Note: Despite my initial attempt to build it from the ground up using Rust and Cosmos SDK, time constraints compelled me to leverage the Solidity codebase. Ultimately, through the InEVM approach, we deployed it on the Injective Blockchain to ensure a timely and effective solution. Cryptic addresses real-time use cases and solves problems that can benefit DAOs and individual members within the Injective ecosystem. Also, as per the rules, I would like to clarify that Cryptic was initially developed for FVM SpaceWrap, and Cryptic can be a cross-chain data management and eSignature solution, making it suitable for building on Injective.
 
 

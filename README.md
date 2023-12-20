@@ -112,6 +112,6 @@ module.exports = {
   },
 };
 ```
-Note: Despite my initial attempt to build it from the ground up using Rust and Cosmos SDK, time constraints compelled me to leverage the existing Cryptic framework in Solidity. Ultimately, through the InEVM approach, we deployed it on the Injective Blockchain to ensure a timely and effective solution. Also, as per the rules, I would like to clarify that Cryptic was initially developed for FVM SpaceWrap. Cryptic addresses real-time use cases and solves problems that can benefit DAOs and individual members within the Injective ecosystem.
+Note: Despite my initial attempt to build it from the ground up using Rust and Cosmos SDK, time constraints compelled me to leverage the existing Cryptic framework in Solidity. Ultimately, through the (InEVM/Caldera) devnet, we deployed it on the Injective Blockchain to ensure a timely and effective solution. Also, as per the rules, I would like to clarify that Cryptic was initially developed for FVM SpaceWrap. Cryptic addresses real-time use cases and solves problems that can benefit DAOs and individual members within the Injective ecosystem.
 
 
